@@ -1,32 +1,46 @@
-# 💰 Expense Tracker
+# 💰 Expense Tracker Desktop Application
 
-A modern desktop-based Expense Tracker application built using Electron.js, HTML, CSS, and JavaScript.  
-This application helps users manage expenses, track income, analyze spending patterns, and monitor monthly budgets through an interactive and visually appealing interface.
-
----
-
-## ✨ Features
-
-- ➕ Add Income & Expense Transactions
-- 📊 Interactive Pie Chart Analytics using Chart.js
-- 📅 Monthly Expense Tracking
-- 💰 Budget Management System
-- ⚠️ Budget Warning & Exceed Alerts
-- 🗂️ Category-wise Expense Breakdown
-- 🧾 Date-wise Transaction History
-- 🌙 Modern Dark Theme UI
-- 💾 Local Storage Data Persistence
-- 🖥️ Desktop Application using Electron.js
+A modern and interactive Expense Tracker built using **Electron.js**, **HTML**, **CSS**, and **JavaScript** that helps users efficiently manage their daily finances, monitor spending habits, and analyze monthly expenses through dynamic visualizations.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Features
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Electron.js
-- Chart.js
+### 📌 Transaction Management
+- Add Income & Expense Transactions
+- Category-Based Expense Tracking
+- Payment Method Support (Cash / UPI)
+- Date-wise Transaction Organization
+- Delete Transactions Dynamically
+
+### 📊 Smart Statistics Dashboard
+- Interactive Pie Chart using Chart.js
+- Monthly Expense Analytics
+- Category-wise Spending Breakdown
+- Real-time Percentage Calculations
+- Dynamic Data Rendering
+
+### 💰 Budget Management
+- Set Monthly Budgets for Categories
+- Track Spending Progress
+- Budget Exceed Alerts
+- Warning Indicators for High Spending
+- Dynamic Progress Bars
+
+### 🎨 User Experience
+- Modern Dark Theme UI
+- Smooth Animations & Transitions
+- Responsive Desktop Layout
+- Clean & User-Friendly Interface
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3, JavaScript (ES6)
+- **Desktop Framework:** Electron.js
+- **Charts & Visualization:** Chart.js
+- **Storage:** Local Storage
 
 ---
 
@@ -35,8 +49,8 @@ This application helps users manage expenses, track income, analyze spending pat
 ```bash
 Expense-Tracker/
 │
-├── index.html
-├── style.css
-├── app.js
-├── main.js
+├── index.html      # Main UI Structure
+├── style.css       # Styling & Animations
+├── app.js          # Core Application Logic
+├── main.js         # Electron Entry Point
 └── README.md
